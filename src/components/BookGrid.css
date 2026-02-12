@@ -1,0 +1,16 @@
+.book-grid-section {
+  margin-top: 24px;
+}
+
+.book-grid-title {
+  color: #f9fafb;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 18px;
+}
